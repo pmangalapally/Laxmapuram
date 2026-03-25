@@ -341,7 +341,6 @@ h4 { font-size: 1.1rem; }
   padding: 8px;
   border-radius: var(--radius-sm);
   transition: background var(--transition);
-  aria-label: "Toggle navigation menu";
 }
 
 .hamburger:hover { background: rgba(255,255,255,0.1); }
