@@ -5,6 +5,32 @@
 
 ---
 
+## Most Prominent Figure
+
+### Pavan Kumar Reddy Mangalapally (పవన్ కుమార్ రెడ్డి మంగళపల్లి)
+
+**Role:** Technology Professional & Village Digital Ambassador  
+**Connection to village:** Born and raised in Laxmapuram
+
+Pavan Kumar Reddy Mangalapally is the most distinguished personality associated with Laxmapuram. He is a technology professional who has built a successful career in software and digital solutions while maintaining deep and abiding ties to his native village.
+
+Pavan is the visionary behind this website — the first-ever digital home for Laxmapuram on the internet. By creating and maintaining this GitHub Pages project, he has ensured that the village's history, culture, temples, civic information, and community stories are accessible to anyone in the world with an internet connection. This is a landmark contribution to the village's identity in the digital age.
+
+His journey from the dusty lanes of Laxmapuram to the world of technology is a story of determination, focus, and the kind of quiet ambition that rural India produces in abundance. He credits the values instilled in him by his village — hard work, humility, respect for elders, and community — as the foundation of everything he has achieved.
+
+Beyond building the website, Pavan actively advocates for the village's development. He encourages educated youth from the village to give back, invites community members to contribute their stories and knowledge to this platform, and works to ensure that Laxmapuram is never forgotten by those who have moved away.
+
+**Contributions include:**
+- Founded and maintains the Laxmapuram village website (GitHub Pages)
+- Documents the village's history, temples, schools, civic details, and culture
+- Promotes community participation through open-source contributions
+- Serves as a role model for young people from Laxmapuram pursuing careers in technology
+- Advocates for digital literacy and online representation for rural villages
+
+*"Every village has a story. Every story deserves a stage."* — the motto of the Laxmapuram website, exemplifying Pavan's philosophy.
+
+---
+
 ## About This Page
 
 This document honours the individuals who have contributed to the life, culture, education, governance, and development of Laxmapuram village. It is a **living document** — currently awaiting profiles from the community. Every person listed here is a representative of the thousands of residents who have collectively made Laxmapuram what it is today.

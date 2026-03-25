@@ -883,6 +883,138 @@ h4 { font-size: 1.1rem; }
   opacity: 0.75;
 }
 
+/* ---------- Featured Person ---------- */
+.section-featured-person {
+  background: linear-gradient(135deg, #fff8e7 0%, #fff3cd 50%, #fdf6e3 100%);
+  border-top: 4px solid var(--saffron);
+  border-bottom: 4px solid var(--saffron);
+}
+
+.person-card-featured {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 32px rgba(212, 112, 26, 0.18), 0 2px 8px rgba(0,0,0,0.08);
+  border: 2px solid var(--gold-light);
+  padding: 2rem 2.5rem;
+  text-align: left;
+  transition: box-shadow var(--transition);
+}
+
+.person-card-featured:hover {
+  box-shadow: 0 12px 40px rgba(212, 112, 26, 0.28);
+}
+
+.featured-person-inner {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.featured-person-avatar {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--saffron), var(--gold));
+  border: 4px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(212, 112, 26, 0.3);
+}
+
+.avatar-initials {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.05em;
+}
+
+.featured-person-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.featured-person-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.featured-person-name {
+  font-size: 1.6rem;
+  color: var(--brown-dark);
+  margin-bottom: 0.2rem;
+}
+
+.featured-person-name-te {
+  font-size: 1.05rem;
+  color: var(--saffron);
+  margin-bottom: 0.3rem;
+}
+
+.featured-role {
+  font-size: 0.95rem !important;
+  color: var(--green) !important;
+}
+
+.featured-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--saffron), var(--gold));
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+}
+
+.featured-person-bio {
+  font-size: 0.97rem;
+  color: var(--brown-mid);
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+}
+
+.featured-person-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+.highlight-chip {
+  background: var(--cream-dark);
+  border: 1px solid var(--gold-light);
+  color: var(--brown-dark);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+}
+
+@media (max-width: 600px) {
+  .featured-person-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .featured-person-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .featured-person-highlights {
+    justify-content: center;
+  }
+  .featured-person-name {
+    font-size: 1.3rem;
+  }
+}
+
 /* ---------- Gallery ---------- */
 .gallery-grid {
   display: grid;
