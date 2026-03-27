@@ -166,21 +166,6 @@
     });
   }
 
-  /* ── Add fade-up animation via injected style ── */
-  const animStyle = document.createElement('style');
-  animStyle.textContent = `
-    .fade-up {
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity 0.55s ease, transform 0.55s ease;
-    }
-    .fade-up.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  `;
-  document.head.appendChild(animStyle);
-
   /* ── Current Year in Footer ── */
   document.querySelectorAll('.js-year').forEach(function (el) {
     el.textContent = new Date().getFullYear();
